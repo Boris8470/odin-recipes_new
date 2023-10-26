@@ -1,0 +1,205 @@
+
+/* обнуление начало */
+/* *{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} */
+/*--------------------*/
+
+
+body{
+
+	padding: 30px;
+	background: linear-gradient(135deg,  rgba(248,255,232,1) 0%,rgba(227,245,171,1) 33%,rgba(183,223,45,1) 100%);
+
+}
+
+
+.title {
+	font-family: 'Pacifico', cursive;
+	font-size: 100px;
+	font-weight: 700;
+	color: darkred;
+	text-shadow: 0px 0px 20px darkgreen;
+	text-align: center;
+	margin: 5px 5px;
+}
+
+
+
+.title_img {
+	border-radius: 7%;
+	border: 5px solid rgb(27, 126, 165);
+}
+.title_description {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+}
+
+.title_description::first-letter {
+
+	font-size: 60px;
+	color: darkorange;
+
+} 
+
+
+.title_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 10px 10px;
+	background: url("../img/smaylik.jpg") 10px 20px/60px no-repeat;
+	padding: 10px 10px 20px 80px;
+	margin: 0 0 0 20px;
+
+}
+
+
+.title_text::after{
+	content:"!";
+font-size:50px;
+color: brown;
+padding-left: 10px;
+}
+
+
+
+
+.title_ing {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.title_ing::first-letter {
+	font-size: 60px;
+	color: green;
+}
+
+
+
+.title_list1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 200px;
+	list-style: none;
+	padding: 10px 10px;
+}
+
+
+.title_list1 li
+{
+	background: url("../img/png-clipart-computer-icons-lunch-meal-breakfast-dinner-breakfast-food-text.png") left/20px 20px no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 20px;
+}
+
+
+.title_list1 li:nth-child(even) {
+
+	font-weight: 700;
+
+}
+
+
+
+.title_steps {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	font-weight: 700;
+	
+}
+
+.title_steps::first-letter {
+	font-size: 60px;
+	color: violet;
+	
+}
+
+
+.title_list2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 200px;
+	padding: 10px 40px;
+}
+
+
+
+.title_list2 li::first-letter{
+	font-size: 30px;
+	color: green;
+	font-size: bold;
+	line-height: 1.5;
+}
+
+
+h2{
+	color: blue;
+}
+
+
+.title_text,.title_list1,.title_list2{
+
+	box-shadow: 0px 0px 20px darkgreen;
+	font-size: 20px;
+
+}
+
+
+.menu_footer {
+
+	
+
+}
+.menu_footer1 {
+	display: inline-block;
+	margin:40px 0px 40px 40px;
+}
+.menu_footer2 {
+	display: inline-block;
+	margin:40px 0px 40px 40px;
+
+}
+.menu_footer3 {
+	display: block;
+	margin:10px 0px 100px 40px;
+	padding-bottom: 30px;
+
+
+}
+
+
+
+div.shadow p:focus{
+
+box-shadow: 20px 20px 40px green;
+}

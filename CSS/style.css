@@ -1,0 +1,262 @@
+
+/* обнуление начало */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+
+	padding: 30px;
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%) no-repeat fixed;
+
+
+}
+
+.logo img{
+display: block;
+margin: 0 auto;
+border-radius: 20%;
+left: 50%;
+
+}
+
+.menu {
+	display: block;
+	margin: 40px 0px 40px 0px;
+	text-align: center;
+	font-size: 30px;
+	/* margin-left: auto;
+	margin-right: auto; */
+	font-weight: 700;
+	/* font-family: 'Pacifico', cursive; */
+}
+.menu_link1 {
+	display: inline-block;
+
+}
+
+.menu_link2 {
+	display: inline-block;
+	margin:40px 0px 40px 20px;
+
+}
+
+.menu_link3 {
+	display: inline-block;
+	margin:40px 0px 40px 20px;
+
+}
+
+.menu_link4 {
+	display: inline-block;
+	margin:40px 0px 40px 20px;
+
+}
+
+.title {
+	position: relative;
+	font-family: 'Caveat', cursive;
+	letter-spacing: 4px;
+
+}
+
+
+.title__subtitle {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+	text-shadow: 0px 0px 5px violet;
+
+}
+
+.title_img1 {
+	width: 600px;
+	border-radius: 20%;
+	margin-bottom: 100px;
+	box-shadow: 0px 0px 40px blue;
+
+
+
+}
+.title_text1 {
+	position: absolute;
+	left: 650px;
+	top: 160px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px lightskyblue;
+	opacity: 1;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+	
+.title_text1:hover{
+
+	font-weight: 900;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px lightpink;
+
+
+}
+.short_decription1 {
+	position: absolute;
+	left: 650px;
+	top: 200px;
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+	font-style: italic;
+	
+
+
+}
+
+.title_img2 {
+	width: 600px;
+	border-radius: 20%;
+	margin-bottom: 100px;
+	box-shadow: 0px 0px 40px blue;
+
+}
+.title_text2 {
+	position: absolute;
+	left: 650px;
+	top: 740px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px lightskyblue;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+
+}
+
+.title_text2:hover{
+
+	font-weight: 900;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px lightpink;
+}
+
+.short_decription2 {
+	position: absolute;
+	left: 650px;
+	top: 780px;
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+	font-style: italic;
+
+
+}
+.title_img3 {
+	width: 600px;
+	border-radius: 20%;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 40px blue;
+
+}
+.title_text3 {
+	position: absolute;
+	left: 650px;
+	top: 1300px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px lightskyblue;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+
+}
+
+.title_text3:hover{
+
+	font-weight: 900;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px lightpink;
+}
+
+.short_decription3 {
+	position: absolute;
+	left: 650px;
+	top: 1340px;
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+	font-style: italic;
+	}
+
+	.fixed {
+
+	}
+
+	.fixed p{
+		position: fixed;
+		margin: 0px 20px 20px 0px;
+		width: auto;
+		height: auto;
+		bottom:0;
+		right:0;
+		border: 5px solid green;
+		border-radius: 10px;
+		font-size: 20px;
+		text-align: center;
+	
+
+
+
+
+	}
+
+.menu_footer {
+
+
+
+}
+.menu_footer1 {
+	display: inline-block;
+	margin:40px 0px 40px 40px;
+	font-size: 20px;
+}
+.menu_footer2 {
+	display: inline-block;
+	margin:40px 0px 40px 40px;
+
+}
+.menu_footer3 {
+	display: block;
+	margin:10px 0px 100px 40px;
+	padding-bottom: 30px;
+
+
+}
+

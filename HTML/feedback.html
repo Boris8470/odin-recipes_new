@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegetable salad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style1.css">
+</head>
+
+<body>
+    <h1 class="title" style="font-size: 60px;font-family: serif;">Все вопросы вы можете задать через форму обратной связи</h1>
+
+ 
+    <form action="#" method="get">
+    <fieldset>
+        <legend>Персональные данные:</legend>  
+        <div class="shadow">
+            <p>Имя</p>
+            <input placeholder="name" tabindex="1" type="text" name="USERNAME"  placeholder="write your name"></div> <!--tabindex определяет порядок перехода между элементами при нажатии клавиши TAB-->
+        </div>
+
+        <div>
+            <p>Телефон</p>
+            <input  tabindex="2" type="tel" name="USERPHONE"  placeholder="write your phone"></div>
+        </div>
+
+        <div> 
+            <p>Пол</p>
+            <div>
+                <input tabindex="3"  type="radio"  name="gender" value="male"/>Мужской
+            </div>
+            <div>
+                <input tabindex="3"  type="radio"  name="gender" value="female"/>Женский
+            </div>
+
+        <div> 
+            <p>Выберите любимое блюдо</p>
+            <div>
+                <input tabindex="4" type="checkbox"  name="borsh" value="yes"/>Борщ
+            </div>
+            <div>
+                <input tabindex="5"   type="checkbox"  name="lasagna" value="yes"/>Лазанья 
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox"  name="vegetable_salad" value="yes"/>Овощной салат
+            </div>
+        <div>
+            <p>Задайте свой вопрос!</p>
+            <textarea tabindex="7"  placeholder="multiple text"  name="text" style="width:400px; height:100px;"></textarea> <!--placeholder задает подпись поля-->
+        </div>
+
+
+        <div>
+            <p>Прикрепить фото</p>
+            <input tabindex="8"  type="file"><!--значением будет наш файл, потому value убираем-->
+        </div>
+        <div>
+            <p>Любимая страна</p>
+            <select tabindex="9" name="country"> 
+                <option selected value="Russia">Россия</option> <!--selected позволяет выбирать позицию по умолчанию-->
+                <option value="England">Англия</option>
+                <option value="Sweden">Швеция</option> 
+                <option value="USA">США</option>
+                <option value="Italy">Италия</option>
+            </select>
+        </div>
+        <div>
+            <p>Действия</p>
+            <button tabindex="10" type="submit">Отправить</button>
+            <button tabindex="11" type="reset">Очистить</button>
+        </div>
+    </fieldset>
+    </form>
+
+    <footer class="menu_footer">
+
+        <a href="#" class="menu_footer1">Подняться вверх</a>
+        <a href="../index.html" class="menu_footer2">Вернуться на домашнюю страницу</a>
+        <a href="" class="menu_footer3">designed by Boris Khudyakov</a>
+    
+    </footer>
+    
+</body>
+    
+    </html>
